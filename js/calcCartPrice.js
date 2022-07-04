@@ -14,7 +14,7 @@ function calcCartPrice (){
 
     if (totalPrice >= 1000){
         deliveryCost.classList.add('free')
-        deliveryCost.innerText = 'бесплатно';
+        deliveryCost.innerText = 'Free';
     }else {
         deliveryCost.classList.remove('free')
         deliveryCost.innerText = '250 ₽';
