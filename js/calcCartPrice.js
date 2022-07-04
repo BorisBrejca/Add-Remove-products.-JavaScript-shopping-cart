@@ -17,7 +17,7 @@ function calcCartPrice (){
         deliveryCost.innerText = 'Free';
     }else {
         deliveryCost.classList.remove('free')
-        deliveryCost.innerText = '250 ₽';
+        deliveryCost.innerText = '250 $';
 
     }
 }
